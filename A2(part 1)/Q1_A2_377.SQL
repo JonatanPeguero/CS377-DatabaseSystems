@@ -1,0 +1,9 @@
+-- THIS WORK WAS MY (OUR) OWN WORK. IT WAS WRITTEN WITHOUT CONSULTING
+-- WORK WRITTEN BY OTHER STUDENTS OR COPIED FROM ONLINE RESOURCES.
+-- _jonatan_peguero_
+SELECT name, party
+FROM recipient
+WHERE state = 'GA'
+AND seat = 'state:governor'
+AND cycle = 2022
+ORDER BY name;
